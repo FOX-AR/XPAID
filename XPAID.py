@@ -183,7 +183,7 @@ def main_apv():
 
         
 
-    r1=requests.get("https://raw.githubusercontent.com/FOX-AR/Approval.txt/main/Approval.txt").text
+    r1=requests.get("https://github.com/FOX-AR/XPAID/blob/main/Aprovel.txt").text
 
     if key1 in r1:
 
